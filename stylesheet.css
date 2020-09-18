@@ -1,6 +1,6 @@
-div {
-    
-    margin: 30px;
+#outline {
+    padding: 30px;
     outline-width: 3px;
-
+    outline-style: solid;
+    position: absolute;
 }
