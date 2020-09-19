@@ -1,6 +1,74 @@
 #outline {
     padding: 30px;
-    outline-width: 3px;
+    outline-width: 0.5px;
     outline-style: solid;
+    outline-color: #ebe9e1;
+    border-radius: 50%;
     position: absolute;
+}
+
+#Email_or_mobile_phone {
+    outline-width: 0.5px;
+    outline-style: solid;
+    outline-color: #ebe9e1;
+    text-align: left;
+}
+
+#Password {
+    text-align: left;
+}
+
+#paypal_logo{
+    width:  129px;
+    height: 64px;
+    position: relative;
+    left: 20%;
+    bottom: 10px;
+}
+
+input[type=text] {
+    width: 100%;
+    padding: 12px 20px;
+    margin: 8px 0;
+    border: 2px solid gray;
+    box-sizing: border-box;
+    border-radius: 5%;
+    border-color: #b1afa9;
+  }
+
+#login_button {
+    border: 2px;
+    color: white;
+    padding: 10px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 10px;
+    margin: 10px 2px;
+    cursor: pointer;
+    background-color: #346bc2;
+    position: relative;
+    left: 26%;
+}
+
+#sign_up {
+    border: 2px;
+    color: white;
+    padding: 10px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 10px;
+    margin: 10px 2px;
+    cursor: pointer;
+    background-color: #9ba1aa;
+    position: relative;
+    left: 26%;
+}
+
+#trouble {
+    font-size: small;
+    text-align: center;
+    font-family: Arial, Helvetica, sans-serif;
+    color: rgb(77, 112, 224);
 }
