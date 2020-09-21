@@ -8,9 +8,6 @@
 }
 
 #Email_or_mobile_phone {
-    outline-width: 0.5px;
-    outline-style: solid;
-    outline-color: #ebe9e1;
     text-align: left;
 }
 
@@ -32,7 +29,7 @@ input[type=text] {
     margin: 8px 0;
     border: 2px solid gray;
     box-sizing: border-box;
-    border-radius: 5%;
+    border-radius: 5px;
     border-color: #b1afa9;
   }
 
@@ -45,7 +42,7 @@ input[type=text] {
     display: inline-block;
     font-size: 10px;
     margin: 10px 2px;
-    /* margin: 0 auto; */
+    border-radius: 2px;
     cursor: pointer;
     background-color: #346bc2;
     position: relative;
@@ -65,6 +62,7 @@ input[type=text] {
     background-color: #9ba1aa;
     position: relative;
     left: 26%;
+    border-radius: 2px;
 }
 
 #trouble {
@@ -72,4 +70,14 @@ input[type=text] {
     text-align: center;
     font-family: Arial, Helvetica, sans-serif;
     color: rgb(77, 112, 224);
+    left: 26%
+}
+
+#login_button:hover{
+    /* transform: scale(1.01); */
+    filter: brightness(90%);
+}
+
+#trouble:hover{
+    color: red;
 }
