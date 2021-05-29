@@ -1,2 +1,2 @@
-# PayPal_login_page
+# PayPal login page
 Mockup of paypal's login page
